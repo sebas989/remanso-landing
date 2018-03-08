@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  background-color: black;
+  background-color: white;
 }
 
 html {
@@ -23,6 +23,11 @@ h6 {
   margin: 0 0 35px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.image65 {
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 p {
@@ -51,13 +56,46 @@ a:focus, a:hover {
   color: #1d9b6c;
 }
 
+img {
+    /*border-style: none;*/
+    /*position: absolute;*/
+    /*padding-top: 89px;*/
+    /*left: 27px;*/
+}
+
+.imageTop {
+    border-style: none;
+    position: absolute;
+    padding-top: 89px;
+    left: 27px;
+}
+
+.formuImg1 {
+    margin-left: 161px;
+    margin-top: -150px;
+    position: absolute;
+}
+.formuImg2 {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: -150px;
+}
+.formu {
+    position: absolute;
+    margin-left: 670px;
+    margin-top: -63px;
+    width: 389px;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 0;
+  /*margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: black;*/
 }
+
+
 
 #mainNav .navbar-toggler {
   font-size: 14px;
@@ -93,14 +131,16 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    letter-spacing: 1px;
-    border-bottom: none;
-    background: transparent;
+      padding-top: 20px;
+      padding-bottom: 6px;
+      -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      /* transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s; */
+      letter-spacing: 1px;
+      /* border-bottom: none; */
+      background: #46200D;
+      text-align: center;
+      padding-right: 500px;
   }
   #mainNav.navbar-shrink {
     padding-top: 10px;
@@ -124,7 +164,8 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+    background-image: url("Remanso-43.png");
+  background: url("Remanso-43.png") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -216,13 +257,21 @@ a:focus, a:hover {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0;
+  /*border-radius: 0;*/
+    background: #46200D;
+    color: #ffffff;
+    margin-top: -42px;
 }
 
 .btn-default {
   color: #42DCA3;
   border: 1px solid #42DCA3;
   background-color: transparent;
+}
+
+.textCon {
+    font-size: 13px;
+    margin-top: 25px;
 }
 
 .btn-default:focus, .btn-default:hover {
